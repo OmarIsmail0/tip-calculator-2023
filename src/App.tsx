@@ -361,7 +361,6 @@ function App() {
             </Grid>
             <Grid container md={12}></Grid>
           </Grid>
-          <>{console.log(getValues("customTip"))}</>
         </Box>
       </div>
     </div>
