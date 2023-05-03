@@ -1,18 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Urbanist:ital,wght@0,500;0,700;1,400&display=swap");
 
 .App {
-  position: relative;
   background-color: hsl(185, 41%, 84%);
-  height: 100vh;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 .Container {
-  /* background-color: hsl(0, 0%, 100%); */
   border-radius: 15px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 50vw;
 }
 
 .Container .Title {
@@ -74,19 +71,7 @@
   border-style: outset !important;
 }
 
-/* 
-.MuiTextField-root.Mui-selected {
-  background-color: red !important;
-  color: #000 !important;
-}
-*/
-
 @media all and (min-width: 374px) and (max-width: 700px) {
-  .App {
-    position: relative;
-    background-color: hsl(185, 41%, 84%);
-    height: 100vh;
-  }
   .Container {
     border-radius: 15px;
     width: 100%;
